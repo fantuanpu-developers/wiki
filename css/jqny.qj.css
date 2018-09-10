@@ -1,0 +1,213 @@
+.ny-bcak{
+    background-color: rgb(255, 255, 255);
+    margin: 5px 6px;
+    min-width: 800px;
+
+    border-radius:8px ;
+}
+.ny-top{
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px;
+}
+.ny-top-1{
+    padding: 10px 0;
+    border-bottom: 1px solid #c3c3c3;
+    position: relative;
+    clear: both;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.top-bottom{
+    padding: 8px ;
+}
+.p-bottom{
+    color: #c3c3c3;
+    font-size: 12px;
+    margin: 0;
+    line-height: 13px;
+}
+.wikith{
+    margin-top: 5.5px;
+}
+.wikitr{
+    width: 50%;
+    float: left;
+
+}
+.wikitable{
+    width: 100%;
+    background-color: #f9f9f9;
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+    margin: 1em 0;
+    font-size: 13px;
+}
+.wiki-bt{
+    width: 100%;
+    background-color: #4a495b;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 8px 10px;
+    font-weight: bold;
+    margin-top: 33px;
+    clear: both;
+}
+#text-b{
+    height: 1040px;
+    overflow-y: hidden;
+}
+button{
+    width: 120px;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    display: none;
+    color: #3369ea;
+    border: 1px solid #3369ea;
+    background-color: transparent;
+    position: relative;
+    left: 370px;
+    bottom: 5px;
+    box-shadow: 0 0 3px #797979;
+}
+
+#post-thread{
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 15px 0;
+    display: inline-block;
+    background: #ffffff;
+}
+.h-top{
+    width: 96%;
+    font-size: 23px;
+    padding: 15px 0;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000;
+    margin-top: 20px;
+    margin: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+ul{
+    list-style-type: none;
+}
+#ss{
+    display: none;
+}
+#ds{
+    display: none;
+}
+#xy{
+    display: none;
+}
+.zbl{
+    width: 100%;
+    overflow: hidden;
+}
+.zb-t{
+    overflow: hidden;
+}
+.zb-t1{
+    width: 50%;
+    float: left;
+}
+
+.zb-t span{
+    font-size: 15px;
+    line-height: 40px;
+    padding: 10px 0;
+    margin: 10px;
+    border-bottom: 1px solid #9a9999;
+}
+.ssl{
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border:1px solid transparent;
+    border-radius: 4px;
+
+}
+.ssl-heading{
+    color: #ffffff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    margin: 8px;
+    border-radius:4px;
+    font-size: 20px;
+}
+.ssl-zd{
+    display: inline-block;
+    min-width: 15px;
+    padding: 3px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius:7px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #337ab7;
+}
+.rw-t{
+    width: 50%;
+    overflow: hidden;
+}
+ul.tabs{
+    width: 98%;
+
+    margin: 0 auto;
+    list-style:none;
+    overflow: hidden;
+    padding: 0;
+}
+.tabs li{
+    float: left;
+    width: 80px;
+}
+.tabs li a.active{
+    margin: 15px 0 0 0;
+    padding: 5px 0;
+    background: #3d4648;
+    color: #8cd6f7;
+    z-index: 4;
+    outline: none;
+}
+.tabs li a{
+    position: relative;
+    display: block;
+    height: 30px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #3cadd8;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 0 0 0;
+    text-decoration: none;
+    box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
+    border: 0px solid #000000;
+    transition: padding 0.2s ease,margin 0.2s ease;
+}
+.tab-head{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    background-color: #337ab7;
+    margin: 15px;
+    margin-bottom: 0;
+}
+*{padding: 0;margin: 0; list-style: none;}
+.tabMenu{ margin:0 15px 0 15px;}
+.tabMenu ul{display: block; overflow: hidden;width:400px;height: 40px;background: #337ab7;}
+.tabMenu ul li{ cursor:pointer;display: block;float: left;width:130px; text-align: center;height: 40px; line-height: 40px;font-size:16px;
+    color: #ffffff;}
+.tabMenu ul li.active{ background:#36a8de;color:#fff;}
+.tabMenu .tabSide{display: none;padding:10px; line-height: 20px;white-space:pre-wrap; word-break:break-all;width:278px;border:solid 1px #eee; }
+.tabMenu div.active{ display: block;padding:10px; line-height: 20px;white-space:pre-wrap; word-break:break-all;width:278px;border:solid 1px #eee; }

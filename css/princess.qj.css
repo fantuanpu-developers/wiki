@@ -1,0 +1,446 @@
+.header {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    box-shadow:0 0 13px rgba(16, 0, 17, 0.51);
+    border-top: 2px solid rgba(8, 17, 39, 0.93);
+    background-color: #ffffff!important;
+    z-index: 99999;
+    position: fixed;
+}
+.headerdown{
+    margin-top: 50px;
+}
+.nav{
+    margin-bottom:0;
+    padding-left: 0;
+    list-style: none;
+    z-index: 99998;
+}
+.subnav{
+    font-size: 14px;
+    width: 100%;
+    position: fixed;
+    top: 40px;
+    z-index: 99;
+    border-bottom: 2px solid #717171;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+.container-fluid{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.navber-brand{
+    float: left;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px;
+}
+.dropdown-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 95;
+    float: left;
+    padding: 5px 0;
+    min-width: 150px;
+    margin: 2px 0;
+    list-style:none;
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius:0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.17);
+    background-clip: padding-box;
+    max-height: none!important;
+}
+.caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left:2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+}
+.menuBtn{
+    width: 40px;
+    height: 30px;
+    float: left;
+    margin: 7px;
+    cursor: pointer;
+    display: inline-block;
+}
+.title{
+    margin: 0 5px;
+    line-height: 1.8em;
+    font-family:"Hiragino Sans GB","futura-pt",Helvetica,Arial,"Hiragino Sans GB W3","Microsoft YaHei",sans-serif;
+}
+.header .title a{
+    display: inline-block;
+    width: 80px;
+    font-size: 12px;
+    float: left;
+    overflow: hidden;
+    line-height: 2em;
+    color: #2e8fd4;
+    padding: 8px;
+    margin: 0;
+}
+.search{
+    float: right;
+}
+.header .add-me{
+    font-size: 12px;
+    line-height: 25px;
+    cursor: pointer;
+    font-weight: 300;
+    font-weight: bold;
+}
+.header a{
+    color: #191919;
+    text-decoration: none;
+    float: right;
+    font-size: 15px;
+    margin: 8px;
+}
+.header .search .in_text{
+    height: 65px;
+    font-size: 15px;
+    border:0px;
+    background-color: #191919;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: "Hiragino Sans GB","futura-pt",Helvetica,Arial,"Hiragino Sans GB W3","Microsoft YaHei",sans-serif;
+    padding: 0 8px;
+}
+.hd li{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    color: #191919;
+    margin-top: 9px;
+    margin-left: 40px;
+}
+.hd li a{
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    margin: 0;
+}
+.clear{
+    clear: both;
+    display: block;
+    float: none;
+}
+#active{
+    box-shadow: 0 0 50px #191919;
+}
+#active *{
+    color: #ffffff;
+}
+#active.statement{
+    position: fixed;
+    font-size: 12px;
+    color: rgba(7, 9, 18, 0.91);
+}
+.ava_message{
+    padding: 50px 0 0 0;
+}
+.trans{
+    -webkit-transition: all 0.5s ease-in,all 0.3s ease-out;
+    -moz-transition: all 0.5s ease-in,all 0.3s ease-out;
+    -ms-transition: all 0.5s ease-in,all 0.3s ease-out;
+    -o-transition: all 0.5s ease-in,all 0.3s ease-out;
+    transition: all 0.5s ease-in,all 0.3s ease-out;
+}
+.jq ul{
+    margin-top: 50px;
+}
+.jq ul li{
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: inset 30px -15px 88px rgba(8, 11, 31, 0.89);
+}
+.jq ul li i{
+    display: inline-block;
+    float: right;
+    box-shadow: #080b1f;
+}
+.jq ul li i a{
+    display: block;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix:before,
+.clearfix:after{
+    display: table;
+    content: "";
+}
+/*顶部*/
+.crown {
+    margin: 0 auto;
+    width: 1200px;
+}
+.crown-ht{
+    margin-top: 50px;
+    overflow: hidden;
+    float: left;
+}
+.crown-ht-l{
+    width: 280px;
+    min-height: 1100px;
+    float: left;
+    padding: 0 20px 5px 0;
+    background-color: #131d40d1;
+}
+.crown-l-top{
+    margin: 30px 18px 15px;
+}
+.crown-top-txt{
+    font-size: 19px;
+    font-weight: 100;
+}
+.crown-wiki-num{
+    font-style: normal;
+    color: #bfbdbd;
+    font-size: 14px;
+    margin: 20px 10px 10px;
+}
+.wiki-ssk{
+    width: 53px;
+    height: 33px;
+    border: 1px solid #3c3c3c;
+    background-color: #292f42;
+
+}
+.crown-wiki-ss{
+    width: 68%;
+    height: 33px;
+    font-family: "微软雅黑", "microsoft yahei";
+    position: relative;
+    left: 25px;
+    color: #ffffff;
+    background-color: #292f42;
+    border: 1px solid #3c3c3c;
+    font-size: 15px;
+    padding: 5px;
+}
+.crown-ht-r{
+    width: 890px;
+    min-height: 1100px;
+    float: right;
+    background-color: rgba(199, 199, 199, 0.23);
+    border-radius: 8px;
+    margin-left: 10px;
+}
+.wiki-list{
+    width: 90%;
+    margin: 0px 30px;
+    line-height: 20px;
+    border-top: 1px solid #777;
+    position: relative;
+    right: 5px;
+}
+.wiki-list-txt{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.wiki-bottom{
+   background-color: #212121;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 20px;
+}
+.wiki-big{
+    width: 100%;
+    overflow: hidden;
+}
+.wiki-l-box{
+    width: 580px;
+    float: left;
+}
+.wiki-r-box {
+    float: left;
+    width: calc(100% - 580px);
+}
+.wiki-box{
+    padding: 10px;
+    background: #ffffff;
+    border-radius:10px;
+    border: 2px solid #817aa9;
+    margin: 10px;
+    position: relative;
+    box-shadow:0 1px 2px #4c4c4cab;
+}
+.wiki-box-heading{
+    background-color: #9c7373;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 1px 1px #000;
+    border-radius:5px 5px 0 0;
+    padding: 3px;
+    margin: -7px -7px 7px;
+
+}
+.flex-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.wiki-box-list{
+    width: 50%;
+    padding: 5px 1px;
+}
+.wiki-iteam{
+    display: block;
+    border-radius: 1.2rem;
+    padding: 0.2em 0.8em;
+}
+.wiki-text{
+    padding: 10px 3px;
+}
+.text-img{
+    clear: right;
+    float: right;
+    padding: 5px;
+}
+.wikiL{
+    padding-bottom:10px
+}
+.wiki-up{
+    background-color: transparent;
+    border-radius: 4px;
+    width: 100%;
+    float: left;
+}
+.wiki-up .up-content il{
+    padding-bottom: 7px;
+    list-style:none;
+    margin-left: 0;
+}
+.wiki-up .up-content li>div{
+    padding: 0px;
+    margin-top: 2px;
+}
+.clearfix{
+    zoom: 1;
+}
+.wiki-up .up-content li span.newadd{
+    background: #4fdb94;
+}
+.wiki-up .up-content li span.up{
+    display: inline-block;
+    font-size: 13px;
+    width: 38px;
+    height: 20px;
+    background-color: #fc6000;
+    text-align:center;
+    color: #ffffff;
+    border-radius:4px ;
+    vertical-align: middle;
+}
+.fn-clear:after{
+    content: '';
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+.up-content li em{
+    float: right;
+    text-align: right;
+    color: #a7a7a7;
+    padding-left: 10px;
+    height: 23px;
+    width: 62px;
+    line-height: 23px;
+}
+.wiki-up .up-content li{
+    padding-bottom: 7px;
+    list-style:none;
+}
+.up-content li .li-line1 a{
+    vertical-align: middle;
+    height: 23px;
+    overflow: hidden;
+    width: 73%;
+    display: inline-block;
+    line-height: 23px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #3b8bff;
+    font-size: 14px;
+}
+.gll p{
+    font-size: 15px;
+    margin: 0;
+    float: left;
+}
+.plq{
+    overflow: hidden;
+    margin: 5px;
+    width: 98%;
+    position: relative;
+    left: 5px;
+}
+.plq-img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+}
+.plq-img em{
+    float: right;
+    text-align: right;
+    color: #a7a7a7;
+    height: 25px;
+    width: 60px;
+    font-size: 15px;
+    position: relative;
+    right: 20px;
+    top: 55px;
+}
+.plq-img span{
+    float: right;
+    position: relative;
+    top: 15px;
+    left: 40px;
+    color: #c94a58;
+    border: 1px solid;
+    padding: 1px 4px;
+}
+.pl a{
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 17px;
+    color: #c51c1c;
+}
+.pl span{
+    position: relative;
+    top: 40px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.plq-head{
+    font-size: 18px;
+    font-weight: bold;
+}
+.pll{
+    border-bottom: 1px solid #afafaf;
+    margin: 3px;
+}
