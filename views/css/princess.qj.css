@@ -194,10 +194,13 @@
 }
 .crown-ht-l{
     width: 280px;
-    min-height: 1100px;
+    min-height: 1135px;
     float: left;
     padding: 0 20px 5px 0;
-    background-color: #131d40d1;
+    background-color: #191d2bc2;
+    border-radius:20px;
+    border: 3px solid  #9c7373;
+
 }
 .crown-l-top{
     margin: 30px 18px 15px;
@@ -226,14 +229,13 @@
     position: relative;
     left: 25px;
     color: #ffffff;
-    background-color: #292f42;
+    background-color: #ffffffba;
     border: 1px solid #3c3c3c;
     font-size: 15px;
     padding: 5px;
 }
 .crown-ht-r{
     width: 890px;
-    min-height: 1100px;
     float: right;
     background-color: rgba(199, 199, 199, 0.23);
     border-radius: 8px;
@@ -246,10 +248,12 @@
     border-top: 1px solid #777;
     position: relative;
     right: 5px;
+
 }
 .wiki-list-txt{
     margin-bottom: 20px;
     margin-top: 20px;
+
 }
 .wiki-bottom{
    background-color: #212121;
@@ -333,7 +337,7 @@
 }
 .clearfix{
     zoom: 1;
-}
+}/*
 .wiki-up .up-content li span.newadd{
     background: #4fdb94;
 }
@@ -347,7 +351,7 @@
     color: #ffffff;
     border-radius:4px ;
     vertical-align: middle;
-}
+}*/
 .fn-clear:after{
     content: '';
     display: block;
@@ -444,3 +448,77 @@
     border-bottom: 1px solid #afafaf;
     margin: 3px;
 }
+.wikigf{
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    border-color: #cccccc;
+    margin: 10px 3px;
+}
+.gf{
+    border: 2px solid #ababab;
+    background:rgba(134, 124, 124, 0.7);
+    padding: 3px 10px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-shadow:1px 1px 5px #000000;
+    background-size: 284px auto;
+    background-repeat: no-repeat;
+    background-position: center right;
+    min-height: 80px;
+    line-height: 25px;
+}
+.wikigf span{
+    border-color: #c3c3c3;
+}
+.wikigf-big{
+    font-size: large;
+    font-weight: bold;
+}
+.wikigf-small{
+    font-size: small;
+}
+.gf:hover{
+     border: 2px solid #715050;
+     color: #e4cfa7;
+ }
+.user-home-activity{
+    padding-top: 10px;
+    border-bottom: 1px solid #ababab;
+}
+.media:first-child{
+    margin-top: 0;
+}
+.media .media-body{
+    zoom: 1;
+    overflow: hidden;
+
+}
+.media-left .media-body{
+    display: table-cell;
+    vertical-align: top;
+}
+.headimg{
+    border-radius: 50%;
+    margin: 0px 5px;
+    width: 60px;
+    height: 60px;
+}
+.media-head{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-left: 5px;
+    width: 100px;
+    float: left;
+    font-size: 15px;
+}
+ .secondary{
+    margin-bottom: 0;
+    font-size: 13px;
+    color:  #808080;
+    position: relative;
+    left: 35px;
+}
+
