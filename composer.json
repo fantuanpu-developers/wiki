@@ -1,0 +1,12 @@
+{
+    "require": {
+        "monolog/monolog": "1.0.*",
+        "duncan3dc/blade" : "3.1.*"
+
+    },
+    "autoload" : {
+        "psr-4" : {
+            "App\\": "App/"
+        }
+    }
+}
