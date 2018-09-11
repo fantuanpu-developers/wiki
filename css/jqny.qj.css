@@ -208,6 +208,6 @@ ul.tabs{
 .tabMenu ul{display: block; overflow: hidden;width:400px;height: 40px;background: #337ab7;}
 .tabMenu ul li{ cursor:pointer;display: block;float: left;width:130px; text-align: center;height: 40px; line-height: 40px;font-size:16px;
     color: #ffffff;}
-.tabMenu ul li.active{ background:#36a8de;color:#fff;}
+.tabMenu ul li.active{ background: #60cbde;color:#fff;}
 .tabMenu .tabSide{display: none;padding:10px; line-height: 20px;white-space:pre-wrap; word-break:break-all;width:278px;border:solid 1px #eee; }
 .tabMenu div.active{ display: block;padding:10px; line-height: 20px;white-space:pre-wrap; word-break:break-all;width:278px;border:solid 1px #eee; }
