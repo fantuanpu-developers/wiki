@@ -206,8 +206,22 @@ ul.tabs{
 *{padding: 0;margin: 0; list-style: none;}
 .tabMenu{ margin:0 15px 0 15px;}
 .tabMenu ul{display: block; overflow: hidden;width:400px;height: 40px;background: #337ab7;}
-.tabMenu ul li{ cursor:pointer;display: block;float: left;width:130px; text-align: center;height: 40px; line-height: 40px;font-size:16px;
+.tabMenu ul li{ cursor:pointer;display: block;float: left;width:133px; text-align: center;height: 40px; line-height: 40px;font-size:16px;
     color: #ffffff;}
 .tabMenu ul li.active{ background: #60cbde;color:#fff;}
-.tabMenu .tabSide{display: none;padding:10px; line-height: 20px;white-space:pre-wrap; word-break:break-all;width:278px;border:solid 1px #eee; }
-.tabMenu div.active{ display: block;padding:10px; line-height: 20px;white-space:pre-wrap; word-break:break-all;width:278px;border:solid 1px #eee; }
+.tabMenu .tabSide{display: none;padding:5px; width:400px;border:solid 1px #eee;
+    float: left;}
+.tabMenu div.active{ display: block;padding:5px; width:400px;border:solid 1px #eee;
+    float: left;}
+.tabwiki{
+    width: 80px;
+    text-align: center;
+    padding: 4px;
+    border-radius:20px;
+    margin: 3px;
+    background:#c1c6d2;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    line-height: 30px;
+    float: left;
+}
